@@ -44,7 +44,7 @@ export const Main = () => {
             </div>
             <div className="result-data">
                 <img src={assets.gemini_icon} alt="" />
-                <p dangerouslySetInnerHTML={{__html:resultData}}></p>
+                <p dangerouslySetInnerHTML={{__html:resultData}}>{resultData}</p>
             </div>
             </div>}
            
